@@ -1,0 +1,235 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla&display=swap');
+
+body{
+    margin: 0;
+    background:#020020;
+}
+
+.nav{
+    background:#020020;
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 96px;
+}
+
+.nav a{
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    font-size: 28px;
+}
+.logo-img{
+    width: 142px;
+    margin-top: 25px;
+}
+
+.list{
+    margin-top: 42px;
+    font-size: 20px;
+    font-family: INHERIT;
+}
+
+
+
+
+
+/* Home Page */
+
+/* external css: flickity.css */
+.swiper {
+    width: 100%;
+    height: 90%;
+    margin:10px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .mySwiper{
+    height:250px;
+    margin: 10px auto;
+  }
+
+  .swiper-backface-hidden .swiper-slide {
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    background: #020020 !important;
+}
+
+  .titleHome{
+    margin: 10px;
+    color:white;
+    font-family: "Tiro Bangla";
+  }
+
+  .mySlider{
+    height: 413px;
+  }
+
+  /* films */
+
+  #section-tab,
+#tab-control,
+#tab-div,
+li {
+  padding: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  border: 1px solid rgba(0, 0, 0, 0.493);
+  margin: 1rem 0;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#section-tab {
+  display: flex;
+}
+
+#tab-control {
+  width: 30vw;
+}
+
+#tab-div {
+  width: 70vw;
+}
+
+#control-selected {
+  background-color: rgb(52, 29, 255);
+  color: white;
+}
+
+/* Serie */
+
+h1{
+  color: white;
+  font-size: 25px;
+}
+
+/* serie */
+.item-serie{
+  text-align: center;
+}
+
+.text{
+  color: white;
+  font-size: 28px;
+}
+
+/*  Footer  */
+
+.footer{
+  background: #000000ab;
+  height: 140px;
+}
+
+.footer-main{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.item-footer{
+  color: white;
+  font-size: 28px;
+}
+
+
+
+/*  Card Series */
+
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: 83%;
+  height: 330px;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+

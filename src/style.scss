@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+/* Android 2.3 :checked fix */
+@keyframes fake {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.worko-tabs {
+    margin: 20px;
+  	width: 80%;
+  
+    .state{
+      position: absolute;
+      left: -10000px;
+    }
+  
+    .flex-tabs{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+        
+        .tab{
+          flex-grow: 1;
+          max-height: 40px;
+        }
+      
+        .panel {
+          background-color: #fff;
+          padding: 20px;
+          min-height: 300px;
+          display: none;
+          width: 100%;
+          flex-basis: auto;
+      }
+    }
+
+    .tab {
+      display: inline-block;
+      padding: 10px;
+      vertical-align: top;
+      background-color: #eee;
+      cursor: hand;
+      cursor: pointer;
+      border-left: 10px solid #ccc;
+      
+        &:hover{
+          background-color: #fff;
+        }
+    }  
+}
+
+#tab-one:checked ~ .tabs #tab-one-label,
+#tab-two:checked ~ .tabs #tab-two-label,
+#tab-three:checked ~ .tabs #tab-three-label,
+#tab-four:checked ~ .tabs #tab-four-label{
+    background-color: rgba(99, 93, 93, 0.603);
+    cursor: default;
+    border-left-color: #2894be;
+    color:white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size:25px;
+}
+
+// deuxieme partie *************************************************************
+#tab-seven:checked ~ .tabs #tab-seven-label,
+#tab-eight:checked ~ .tabs #tab-eight-label,
+#tab-nine:checked ~ .tabs #tab-nine-label,
+#tab-ten:checked ~ .tabs #tab-ten-label,
+#tab-eleven:checked ~ .tabs #tab-eleven-label,
+#tab-twelve:checked ~ .tabs #tab-twelve-label,
+#tab-thirteen:checked ~ .tabs #tab-thirteen-label,
+#tab-fourteen:checked ~ .tabs #tab-fourteen-label,
+#tab-fiveteen:checked ~ .tabs #tab-fiveteen-label,
+#tab-sixteen:checked ~ .tabs #tab-sixteen-label{
+    background-color: rgba(99, 93, 93, 0.603);
+    cursor: default;
+    border-left-color: #2894be;
+    color:white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size:25px;
+}
+
+#tab-seven:checked ~ .tabs #tab-seven-label,
+#tab-eight:checked ~ .tabs #tab-eight-label,
+#tab-nine:checked ~ .tabs #tab-nine-label,
+#tab-ten:checked ~ .tabs #tab-ten-label,
+#tab-eleven:checked ~ .tabs #tab-eleven-label,
+#tab-twelve:checked ~ .tabs #tab-twelve-label,
+#tab-thirteen:checked ~ .tabs #tab-thirteen-label,
+#tab-fourteen:checked ~ .tabs #tab-fourteen-label,
+#tab-fiveteen:checked ~ .tabs #tab-fiveteen-label,
+#tab-sixteen:checked ~ .tabs #tab-sixteen-label{
+  display: block;
+}
+
+
+// *************************************************************************
+
+#tab-one:checked ~ .tabs #tab-one-panel,
+#tab-two:checked ~ .tabs #tab-two-panel,
+#tab-three:checked ~ .tabs #tab-three-panel,
+#tab-four:checked ~ .tabs #tab-four-panel{
+    display: block;
+}
+
+@media (max-width: 600px){
+  .flex-tabs{
+    flex-direction: column;
+    
+    .tab{
+      background: #fff;
+      border-bottom: 1px solid #ccc;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size:25px;
+      
+        &:last-of-type{
+          border-bottom: none;
+        }
+    }
+    
+    #tab-one-label{order:1; font-family: 'Barlow Condensed', sans-serif;
+    font-size:25px;}
+    #tab-two-label{order: 3; font-family: 'Barlow Condensed', sans-serif;
+    font-size:25px;}
+    #tab-three-label{order: 5; font-family: 'Barlow Condensed', sans-serif;
+    font-size:25px;};
+    #tab-four-label{order: 7; font-family: 'Barlow Condensed', sans-serif;
+    font-size:25px;};
+    #tab-one-panel{order: 2; font-family: 'Barlow Condensed', sans-serif;
+    font-size:25px;}
+    #tab-two-panel{order: 4; font-family: 'Barlow Condensed', sans-serif;
+    font-size:25px;}
+    #tab-three-panel{order: 6; font-family: 'Barlow Condensed', sans-serif;
+    font-size:25px;}
+    #tab-four-panel{ order: 8; font-family: 'Barlow Condensed', sans-serif;
+    font-size:25px;}
+
+    // Deuxieme partie
+    #tab-five-panel{ order: 8; font-family: 'Barlow Condensed', sans-serif;
+      font-size:25px;}
+    #tab-six-panel{ order: 8; font-family: 'Barlow Condensed', sans-serif;
+      font-size:25px;}
+    #tab-seven-panel{ order: 8; font-family: 'Barlow Condensed', sans-serif;
+      font-size:25px;}
+    #tab-eight-panel{ order: 8; font-family: 'Barlow Condensed', sans-serif;
+      font-size:25px;}
+    #tab-nine-panel{ order: 8; font-family: 'Barlow Condensed', sans-serif;
+      font-size:25px;}
+    #tab-ten-panel{ order: 8; font-family: 'Barlow Condensed', sans-serif;
+      font-size:25px;}
+    #tab-eleven-panel{ order: 8; font-family: 'Barlow Condensed', sans-serif;
+      font-size:25px;}
+    #tab-twelve-panel{ order: 8; font-family: 'Barlow Condensed', sans-serif;
+      font-size:25px;}
+    #tab-thirteen-panel{ order: 8; font-family: 'Barlow Condensed', sans-serif;
+      font-size:25px;}
+    #tab-fourteen-panel{ order: 8; font-family: 'Barlow Condensed', sans-serif;
+      font-size:25px;}
+    #tab-fiveteen-panel{ order: 8; font-family: 'Barlow Condensed', sans-serif;
+      font-size:25px;}
+    #tab-sixteen-panel{ order: 8; font-family: 'Barlow Condensed', sans-serif;
+      font-size:25px;}
+  }
+  
+    #tab-one:checked ~ .tabs #tab-one-label,
+    #tab-two:checked ~ .tabs #tab-two-label,
+    #tab-three:checked ~ .tabs #tab-three-label,
+    #tab-four:checked ~ .tabs #tab-four-label{
+      border-bottom: none;
+    }
+
+    // deuxieme partie
+
+    #tab-seven:checked ~ .tabs #tab-seven-label,
+    #tab-eight:checked ~ .tabs #tab-eight-label,
+    #tab-nine:checked ~ .tabs #tab-nine-label,
+    #tab-ten:checked ~ .tabs #tab-ten-label,
+    #tab-eleven:checked ~ .tabs #tab-eleven-label,
+    #tab-twelve:checked ~ .tabs #tab-twelve-label,
+    #tab-thirteen:checked ~ .tabs #tab-thirteen-label,
+    #tab-fourteen:checked ~ .tabs #tab-fourteen-label,
+    #tab-fiveteen:checked ~ .tabs #tab-fiveteen-label,
+    #tab-sixteen:checked ~ .tabs #tab-sixteen-label{
+      border-bottom: none;
+    }
+  
+  #tab-one:checked ~ .tabs #tab-one-panel,
+  #tab-two:checked ~ .tabs #tab-two-panel,
+  #tab-three:checked ~ .tabs #tab-three-panel,
+  #tab-four:checked ~ .tabs #tab-four-panel{
+    border-bottom: 1px solid #ccc;
+  }
+
+  // deuxieme partie
+  #tab-seven:checked ~ .tabs #tab-seven-panel,
+  #tab-eight:checked ~ .tabs #tab-eight-panel,
+  #tab-nine:checked ~ .tabs #tab-nine-panel,
+  #tab-ten:checked ~ .tabs #tab-ten-panel,
+  #tab-eleven:checked ~ .tabs #tab-eleven-panel,
+  #tab-twelve:checked ~ .tabs #tab-twelve-panel,
+  #tab-thirteen:checked ~ .tabs #tab-thirteen-panel,
+  #tab-fourteen:checked ~ .tabs #tab-fourteen-panel,
+  #tab-fiveteen:checked ~ .tabs #tab-fiveteen-panel,
+  #tab-sixteen:checked ~ .tabs #tab-sixteen-panel{
+    border-bottom: 1px solid #ccc;
+  }
+}
+
