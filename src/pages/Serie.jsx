@@ -24,7 +24,7 @@ function Serie(){
           <a href="/serie01">
             <div class="card_image"> <img src={Film01} /> </div>
             <div class="card_title title-white">
-              <p className="title-serie">Vẻ Đẹp Đích Thực</p>
+              {/* <p className="title-serie">Vẻ Đẹp Đích Thực</p> */}
             </div>
           </a>
         </div>
@@ -35,7 +35,7 @@ function Serie(){
       <img src={Film02} />
       </div>
     <div class="card_title title-white">
-      <p className="title-serie">Card Title</p>
+      {/* <p className="title-serie">Card Title</p> */}
     </div>
     </a>
   </div>
@@ -46,7 +46,7 @@ function Serie(){
       <img src={Film03} />
     </div>
     <div class="card_title">
-      <p className="title-serie">Card Title</p>
+      {/* <p className="title-serie">Card Title</p> */}
     </div>
     </a>
   </div>
@@ -57,7 +57,7 @@ function Serie(){
       <img src={Film04} />
       </div>
     <div class="card_title title-black">
-      <p className="title-serie">Card Title</p>
+      {/* <p className="title-serie">Card Title</p> */}
     </div>
     </a>
     </div>
@@ -68,7 +68,7 @@ function Serie(){
       <img src={Film05} />
       </div>
     <div class="card_title title-black">
-      <p className="title-serie">Card Title</p>
+      {/* <p className="title-serie">Card Title</p> */}
     </div>
     </a>
     </div>
@@ -79,7 +79,7 @@ function Serie(){
       <img src={Film06} />
       </div>
     <div class="card_title title-black">
-      <p className="title-serie">Card Title</p>
+      {/* <p className="title-serie">Card Title</p> */}
     </div>
     </a>
     </div>
@@ -90,7 +90,7 @@ function Serie(){
           <img src={Film07} alt="Film07" />
         </div>
         <div class="card_title title-black">
-          <p className="title-serie">Film 07</p>
+          {/* <p className="title-serie">Film 07</p> */}
         </div>
       </a>
     </div>

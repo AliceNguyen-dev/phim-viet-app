@@ -48,15 +48,15 @@ export default function Home(){
     return(
         <div className="home-main">
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper mySlider">
-                <SwiperSlide><a className="" href="../series/serie01"><img className="logo-img" src={Film01Slider} alt="film01" /></a></SwiperSlide>
-                <SwiperSlide><a className="" href="/"><img className="logo-img" src={Film02Slider} alt="film02" /></a></SwiperSlide>
-                <SwiperSlide><a className="" href="/"><img className="logo-img" src={Film03Slider} alt="film03" /></a></SwiperSlide>
-                <SwiperSlide><a className="" href="/"><img className="logo-img" src={Film04Slider} alt="film04" /></a></SwiperSlide>
-                <SwiperSlide><a className="" href="/"><img className="logo-img" src={Film05Slider} alt="film05" /></a></SwiperSlide>
-                <SwiperSlide><a className="" href="/"><img className="logo-img" src={Film06Slider} alt="film06" /></a></SwiperSlide>
-                <SwiperSlide><a className="" href="/"><img className="logo-img" src={Film07slider} alt="film07" /></a></SwiperSlide>
-                <SwiperSlide><a className="" href="/"><img className="logo-img" src={Film08Slider} alt="film08" /></a></SwiperSlide>
-                <SwiperSlide><a className="" href="/"><img className="logo-img" src={Film09Slider} alt="film09" /></a></SwiperSlide>
+                <SwiperSlide><a className="" href="./serie01"><img className="logo-img" src={Film01Slider} alt="serie01" /></a></SwiperSlide>
+                <SwiperSlide><a className="" href="./serie02"><img className="img-phone" src={Film02Slider} alt="serie02" /></a></SwiperSlide>
+                <SwiperSlide><a className="" href="./serie03"><img className="logo-img" src={Film03Slider} alt="serie03" /></a></SwiperSlide>
+                <SwiperSlide><a className="" href="/serie04"><img className="img-phone" src={Film04Slider} alt="serie04" /></a></SwiperSlide>
+                <SwiperSlide><a className="" href="/serie05"><img className="img-phone" src={Film05Slider} alt="serie05" /></a></SwiperSlide>
+                <SwiperSlide><a className="" href="/serie06"><img className="img-phone" src={Film06Slider} alt="serie06" /></a></SwiperSlide>
+                <SwiperSlide><a className="" href="/serie07"><img className="logo-img" src={Film07slider} alt="serie07" /></a></SwiperSlide>
+                <SwiperSlide><a className="" href="/serie08"><img className="logo-img" src={Film08Slider} alt="serie08" /></a></SwiperSlide>
+                <SwiperSlide><a className="" href="/serie09"><img className="logo-img" src={Film09Slider} alt="serie09" /></a></SwiperSlide>
             </Swiper>
             <h1 className="titleHome">Series</h1>
 
